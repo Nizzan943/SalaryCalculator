@@ -98,7 +98,7 @@ namespace SalaryCalculator
             }
             catch (Exception exception)
             {
-                Console.WriteLine("Error saving user profile");
+                MessageBox.Show("Error saving user profile!\nMake sure User.txt exist at root folder.");
                 throw;
             }
         }
@@ -126,7 +126,7 @@ namespace SalaryCalculator
             }
             catch (Exception exception)
             {
-                Console.WriteLine("Error saving user profile");
+                MessageBox.Show("Error saving user profile!\nMake sure User.txt exist at root folder.");
                 throw;
             }
         }
