@@ -29,11 +29,13 @@ namespace SalaryCalculator.Parser
        
         public void GetInfo(User user)
         {
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.AddArgument("--headless");
-            
+            var chromeDriverService = ChromeDriverService.CreateDefaultService();
+            chromeDriverService.HideCommandPromptWindow = true;
+            var option = new ChromeOptions();
+            option.AddArguments("--headless", "--no-sandbox", "--disable-web-security", "--disable-gpu", "--incognito", "--proxy-bypass-list=*", "--proxy-server='direct://'", "--log-level=3", "--hide-scrollbars");
+
             var driver =
-               new ChromeDriver(chromeOptions)
+                new ChromeDriver(chromeDriverService, option)
                {
                    Url = user.Site
                };

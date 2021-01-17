@@ -10,3 +10,16 @@ C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parserr\obj\Releas
 C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parserr\obj\Release\SalaryCalculator.Parser.csproj.CopyComplete
 C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parserr\obj\Release\SalaryCalculator.Parser.dll
 C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parserr\obj\Release\SalaryCalculator.Parser.pdb
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\SalaryCalculator.Parser.dll.config
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\SalaryCalculator.Parser.dll
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\SalaryCalculator.Parser.pdb
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\HtmlAgilityPack.dll
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\WebDriver.dll
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\HtmlAgilityPack.xml
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\bin\Release\WebDriver.xml
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\obj\Release\SalaryCalculator.Parser.csprojAssemblyReference.cache
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\obj\Release\SalaryCalculator.Parser.csproj.CoreCompileInputs.cache
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\obj\Release\SalaryCalculator.Parser.csproj.CopyComplete
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\obj\Release\SalaryCalculator.Parser.dll
+C:\Users\Nizza\source\repos\SalaryCalculator\SalaryCalculator.Parser\obj\Release\SalaryCalculator.Parser.pdb

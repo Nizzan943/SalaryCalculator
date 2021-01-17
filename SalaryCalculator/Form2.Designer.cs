@@ -45,6 +45,7 @@
             this.txtUserID = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.boxSalary = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.boxExtraTime = new System.Windows.Forms.TextBox();
@@ -65,7 +66,6 @@
             this.saveMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.label3 = new System.Windows.Forms.Label();
             this.boxUser.SuspendLayout();
             this.boxSalary.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -258,6 +258,18 @@
             this.boxSalary.TabStop = false;
             this.boxSalary.Text = "Salary";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label3.Location = new System.Drawing.Point(87, 345);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(148, 17);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Mission accomplished!";
+            this.label3.Visible = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -337,7 +349,6 @@
             this.boxTotalTime.Size = new System.Drawing.Size(145, 26);
             this.boxTotalTime.TabIndex = 6;
             // 
-            
             // txtTotalTimeHH
             // 
             this.txtTotalTimeHH.AutoSize = true;
@@ -388,14 +399,14 @@
             this.loadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadMenu});
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadToolStripMenuItem.Text = "Load";
             // 
             // loadMenu
             // 
             this.loadMenu.Name = "loadMenu";
-            this.loadMenu.Size = new System.Drawing.Size(103, 22);
-            this.loadMenu.Text = "User1";
+            this.loadMenu.Size = new System.Drawing.Size(180, 22);
+            this.loadMenu.Text = "User";
             this.loadMenu.Click += new System.EventHandler(this.user1ToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
@@ -403,14 +414,14 @@
             this.saveToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveMenu});
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // saveMenu
             // 
             this.saveMenu.Name = "saveMenu";
-            this.saveMenu.Size = new System.Drawing.Size(103, 22);
-            this.saveMenu.Text = "User1";
+            this.saveMenu.Size = new System.Drawing.Size(180, 22);
+            this.saveMenu.Text = "User";
             this.saveMenu.Click += new System.EventHandler(this.user1ToolStripMenuItem1_Click);
             // 
             // label1
@@ -422,18 +433,6 @@
             this.label1.Size = new System.Drawing.Size(295, 17);
             this.label1.TabIndex = 21;
             this.label1.Text = "SalaryCalculator - Made by © Nitzan Miranda.";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(87, 345);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 17);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "Mission accomplished!";
-            this.label3.Visible = false;
             // 
             // Form2
             // 

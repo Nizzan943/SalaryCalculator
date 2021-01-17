@@ -18,12 +18,7 @@ namespace SalaryCalculator
         {
             InitializeComponent();
         }
-
-        private void Calculate(int i)
-        {
-            double pow = Math.Pow(i, i);
-        }
-
+        
         public void DoWork(IProgress<int> progress)
         {
             // This method is executed in the context of
@@ -31,8 +26,6 @@ namespace SalaryCalculator
             // so use only thread-safe code
             for (int j = 0; j < 100000; j++)
             {
-                Calculate(j);
-
                 // Use progress to notify UI thread that progress has
                 // changed
                 if (progress != null)
