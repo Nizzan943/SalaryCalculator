@@ -6,7 +6,6 @@ using System.Windows.Forms;
 using HtmlAgilityPack;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using SalaryCalculator.Parser;
 #pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup");
 
 

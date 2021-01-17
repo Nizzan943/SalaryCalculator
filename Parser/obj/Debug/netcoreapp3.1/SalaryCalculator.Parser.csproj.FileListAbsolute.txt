@@ -1,9 +1,0 @@
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\bin\Debug\netcoreapp3.1\SalaryCalculator.Parser.deps.json
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\bin\Debug\netcoreapp3.1\SalaryCalculator.Parser.dll
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\obj\Debug\netcoreapp3.1\SalaryCalculator.Parser.csprojAssemblyReference.cache
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\obj\Debug\netcoreapp3.1\SalaryCalculator.Parser.AssemblyInfoInputs.cache
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\obj\Debug\netcoreapp3.1\SalaryCalculator.Parser.AssemblyInfo.cs
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\bin\Debug\netcoreapp3.1\SalaryCalculator.Parser.pdb
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\obj\Debug\netcoreapp3.1\SalaryCalculator.Parser.csproj.CoreCompileInputs.cache
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\obj\Debug\netcoreapp3.1\SalaryCalculator.Parser.dll
-C:\Users\Nizza\source\repos\SalaryCalculator\Parser\obj\Debug\netcoreapp3.1\SalaryCalculator.Parser.pdb

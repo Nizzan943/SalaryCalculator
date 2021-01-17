@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator", "SalaryCalculator\SalaryCalculator.csproj", "{0D36B37C-E96C-4CB8-8E7E-DE93F3F1D864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator.Parser", "SalaryCalculator.Parserr\SalaryCalculator.Parser.csproj", "{14CD6099-D910-4E04-B446-946659ABFA0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator.Parser", "SalaryCalculator.Parser\SalaryCalculator.Parser.csproj", "{14CD6099-D910-4E04-B446-946659ABFA0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

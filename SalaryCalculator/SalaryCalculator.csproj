@@ -104,7 +104,7 @@
     <Content Include="index2.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SalaryCalculator.Parserr\SalaryCalculator.Parser.csproj">
+    <ProjectReference Include="..\SalaryCalculator.Parser\SalaryCalculator.Parser.csproj">
       <Project>{14cd6099-d910-4e04-b446-946659abfa0c}</Project>
       <Name>SalaryCalculator.Parser</Name>
     </ProjectReference>
