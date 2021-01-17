@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>SalaryCalculator.User</AssemblyName>
+    <RootNamespace>SalaryCalculator.User</RootNamespace>
+  </PropertyGroup>
+
+</Project>
