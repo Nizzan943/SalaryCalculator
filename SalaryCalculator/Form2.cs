@@ -19,54 +19,6 @@ namespace SalaryCalculator
             InitializeComponent();
         }
 
-        public void Form2_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void boxCompanyID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxUserID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxPassword_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxRate_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxTotalTime_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxRegularTime_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxExtraTime_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void boxTotalPayment_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         private void Calculate(int i)
         {
             double pow = Math.Pow(i, i);
@@ -103,7 +55,7 @@ namespace SalaryCalculator
             // Run operation in another thread
             await Task.Run(() => DoWork(progress));
             label3.Visible = true;
-            
+
             var user = new User(boxCompanyID.Text, boxUserID.Text, boxPassword.Text,
                 boxSite.Text, double.Parse(boxRate.Text));
             var session = new Session(user);
@@ -112,21 +64,6 @@ namespace SalaryCalculator
             boxRegularTime.Text = session.strRegularTimeHH;
             boxExtraTime.Text = session.strExtraTimeHH;
             boxTotalPayment.Text = session.totalPayment.ToString();
-
-        }
-
-        private void boxSites_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void siteBindingSource_CurrentChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -207,10 +144,7 @@ namespace SalaryCalculator
             boxRate.Text = userInfo[4].Split(':')[1];
         }
 
-        private void txtExtraTime_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
 

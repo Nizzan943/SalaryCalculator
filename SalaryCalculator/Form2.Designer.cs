@@ -54,7 +54,6 @@
             this.boxTotalPayment = new System.Windows.Forms.TextBox();
             this.txtTotalPayment = new System.Windows.Forms.Label();
             this.boxTotalTime = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtTotalTimeHH = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -126,7 +125,6 @@
             this.boxSite.Name = "boxSite";
             this.boxSite.Size = new System.Drawing.Size(160, 26);
             this.boxSite.TabIndex = 4;
-            this.boxSite.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // textBox2
             // 
@@ -153,7 +151,6 @@
             this.boxRate.Name = "boxRate";
             this.boxRate.Size = new System.Drawing.Size(160, 26);
             this.boxRate.TabIndex = 5;
-            this.boxRate.TextChanged += new System.EventHandler(this.boxRate_TextChanged);
             // 
             // txtRate
             // 
@@ -172,7 +169,6 @@
             this.boxUserID.Name = "boxUserID";
             this.boxUserID.Size = new System.Drawing.Size(160, 26);
             this.boxUserID.TabIndex = 2;
-            this.boxUserID.TextChanged += new System.EventHandler(this.boxUserID_TextChanged);
             // 
             // boxCompanyID
             // 
@@ -181,7 +177,6 @@
             this.boxCompanyID.Name = "boxCompanyID";
             this.boxCompanyID.Size = new System.Drawing.Size(160, 26);
             this.boxCompanyID.TabIndex = 1;
-            this.boxCompanyID.TextChanged += new System.EventHandler(this.boxCompanyID_TextChanged);
             // 
             // boxPassword
             // 
@@ -191,7 +186,6 @@
             this.boxPassword.Size = new System.Drawing.Size(160, 26);
             this.boxPassword.TabIndex = 3;
             this.boxPassword.UseSystemPasswordChar = true;
-            this.boxPassword.TextChanged += new System.EventHandler(this.boxPassword_TextChanged);
             // 
             // btnLogin
             // 
@@ -255,7 +249,6 @@
             this.boxSalary.Controls.Add(this.boxTotalPayment);
             this.boxSalary.Controls.Add(this.txtTotalPayment);
             this.boxSalary.Controls.Add(this.boxTotalTime);
-            this.boxSalary.Controls.Add(this.groupBox3);
             this.boxSalary.Controls.Add(this.txtTotalTimeHH);
             this.boxSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxSalary.Location = new System.Drawing.Point(435, 38);
@@ -289,7 +282,6 @@
             this.boxExtraTime.Name = "boxExtraTime";
             this.boxExtraTime.Size = new System.Drawing.Size(145, 26);
             this.boxExtraTime.TabIndex = 8;
-            this.boxExtraTime.TextChanged += new System.EventHandler(this.boxExtraTime_TextChanged);
             // 
             // txtExtraTime
             // 
@@ -300,7 +292,6 @@
             this.txtExtraTime.Size = new System.Drawing.Size(84, 20);
             this.txtExtraTime.TabIndex = 20;
             this.txtExtraTime.Text = "Extra Time";
-            this.txtExtraTime.Click += new System.EventHandler(this.txtExtraTime_Click);
             // 
             // boxRegularTime
             // 
@@ -309,7 +300,6 @@
             this.boxRegularTime.Name = "boxRegularTime";
             this.boxRegularTime.Size = new System.Drawing.Size(145, 26);
             this.boxRegularTime.TabIndex = 7;
-            this.boxRegularTime.TextChanged += new System.EventHandler(this.boxRegularTime_TextChanged);
             // 
             // txtRegularHour
             // 
@@ -328,7 +318,6 @@
             this.boxTotalPayment.Name = "boxTotalPayment";
             this.boxTotalPayment.Size = new System.Drawing.Size(145, 26);
             this.boxTotalPayment.TabIndex = 9;
-            this.boxTotalPayment.TextChanged += new System.EventHandler(this.boxTotalPayment_TextChanged);
             // 
             // txtTotalPayment
             // 
@@ -347,18 +336,8 @@
             this.boxTotalTime.Name = "boxTotalTime";
             this.boxTotalTime.Size = new System.Drawing.Size(145, 26);
             this.boxTotalTime.TabIndex = 6;
-            this.boxTotalTime.TextChanged += new System.EventHandler(this.boxTotalTime_TextChanged);
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(555, 20);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(244, 439);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "User Credentials";
-            // 
+            
             // txtTotalTimeHH
             // 
             this.txtTotalTimeHH.AutoSize = true;
@@ -467,7 +446,6 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.boxUser.ResumeLayout(false);
             this.boxUser.PerformLayout();
             this.boxSalary.ResumeLayout(false);
@@ -498,7 +476,6 @@
         private System.Windows.Forms.TextBox boxTotalPayment;
         private System.Windows.Forms.Label txtTotalPayment;
         private System.Windows.Forms.TextBox boxTotalTime;
-        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label txtTotalTimeHH;
         private System.Windows.Forms.TextBox boxExtraTime;
         private System.Windows.Forms.Label txtExtraTime;
