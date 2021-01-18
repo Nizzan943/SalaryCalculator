@@ -399,13 +399,13 @@
             this.loadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadMenu});
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.loadToolStripMenuItem.Text = "Load";
             // 
             // loadMenu
             // 
             this.loadMenu.Name = "loadMenu";
-            this.loadMenu.Size = new System.Drawing.Size(180, 22);
+            this.loadMenu.Size = new System.Drawing.Size(97, 22);
             this.loadMenu.Text = "User";
             this.loadMenu.Click += new System.EventHandler(this.user1ToolStripMenuItem_Click);
             // 
@@ -414,13 +414,13 @@
             this.saveToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveMenu});
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // saveMenu
             // 
             this.saveMenu.Name = "saveMenu";
-            this.saveMenu.Size = new System.Drawing.Size(180, 22);
+            this.saveMenu.Size = new System.Drawing.Size(97, 22);
             this.saveMenu.Text = "User";
             this.saveMenu.Click += new System.EventHandler(this.user1ToolStripMenuItem1_Click);
             // 
@@ -444,7 +444,7 @@
             this.Controls.Add(this.boxUser);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Salary Calculator";
             this.boxUser.ResumeLayout(false);
             this.boxUser.PerformLayout();
             this.boxSalary.ResumeLayout(false);
