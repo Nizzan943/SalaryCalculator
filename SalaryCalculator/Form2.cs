@@ -62,15 +62,23 @@ namespace SalaryCalculator
 
         private void user1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string[] userInfo = null;
-            string fileName = "User.txt";
-            string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\{fileName}";
-            userInfo = File.ReadAllLines(filePath);
-            boxCompanyID.Text = userInfo[0].Split(':')[1];
-            boxUserID.Text = userInfo[1].Split(':')[1];
-            boxPassword.Text = userInfo[2].Split(':')[1];
-            boxSite.Text = userInfo[3].Split(':')[1];
-            boxRate.Text = userInfo[4].Split(':')[1];
+            try
+            {
+                string[] userInfo = null;
+                string fileName = "User.txt";
+                string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\{fileName}";
+                userInfo = File.ReadAllLines(filePath);
+                boxCompanyID.Text = userInfo[0].Split(':')[1];
+                boxUserID.Text = userInfo[1].Split(':')[1];
+                boxPassword.Text = userInfo[2].Split(':')[1];
+                boxSite.Text = userInfo[3].Split(':')[1];
+                boxRate.Text = userInfo[4].Split(':')[1];
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Error loading user profile!\nMake sure User.txt exist at root folder.");
+                throw;
+            }
         }
 
         private void user1ToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -126,18 +134,48 @@ namespace SalaryCalculator
 
         private void btnQuickLoad_Click(object sender, EventArgs e)
         {
-            string[] userInfo = null;
-            string fileName = "User.txt";
-            string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\{fileName}";
-            userInfo = File.ReadAllLines(filePath);
-            boxCompanyID.Text = userInfo[0].Split(':')[1];
-            boxUserID.Text = userInfo[1].Split(':')[1];
-            boxPassword.Text = userInfo[2].Split(':')[1];
-            boxSite.Text = userInfo[3].Split(':')[1];
-            boxRate.Text = userInfo[4].Split(':')[1];
+            try
+            {
+                string[] userInfo = null;
+                string fileName = "User.txt";
+                string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\{fileName}";
+                userInfo = File.ReadAllLines(filePath);
+                boxCompanyID.Text = userInfo[0].Split(':')[1];
+                boxUserID.Text = userInfo[1].Split(':')[1];
+                boxPassword.Text = userInfo[2].Split(':')[1];
+                boxSite.Text = userInfo[3].Split(':')[1];
+                boxRate.Text = userInfo[4].Split(':')[1];
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Error loading user profile!\nMake sure User.txt exist at root folder.");
+                throw;
+            }
         }
 
-
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            string fileName = "User.txt";
+            string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\{fileName}";
+            if (File.Exists(filePath))
+            {
+                try
+                {
+                    string[] userInfo = null;
+                    userInfo = File.ReadAllLines(filePath);
+                    boxCompanyID.Text = userInfo[0].Split(':')[1];
+                    boxUserID.Text = userInfo[1].Split(':')[1];
+                    boxPassword.Text = userInfo[2].Split(':')[1];
+                    boxSite.Text = userInfo[3].Split(':')[1];
+                    boxRate.Text = userInfo[4].Split(':')[1];
+                }
+                catch (Exception exception)
+                {
+                    MessageBox.Show("Error loading user profile!\nMake sure User.txt exist at root folder.");
+                    throw;
+                }
+            }
+        }
     }
 }
 

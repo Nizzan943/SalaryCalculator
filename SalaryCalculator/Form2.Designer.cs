@@ -445,6 +445,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form2";
             this.Text = "Salary Calculator";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.boxUser.ResumeLayout(false);
             this.boxUser.PerformLayout();
             this.boxSalary.ResumeLayout(false);
